@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-image: url("Images/city.jpg");
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
+#home {
+    display:inline-block;
+    margin-right: 20px;
+    align-items: center;;
+}
+
+#home span {
+    color : white;
+    font-weight: bold;
+    align-self: center;
+}
+
+nav {
+    background-color: rgba(2, 38, 55, 0.524);
+    padding: 20px;
+    display: flex  ;
+    align-items:  center ;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li {
+    display : inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+button {    
+    background-color: #064b48;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  
+}
+
+.search-container {
+    display: flex;
+    align-items : center;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0px 10px;
+    width: auto;
+    justify-content: space-evenly;
+
+}
+
+
+.clear-button,
+ .search-button{
+    width: auto;
+    height: auto;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+   
+

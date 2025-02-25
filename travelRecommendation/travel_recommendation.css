@@ -18,9 +18,10 @@ body{
     display:inline-block;
     margin-right: 20px;
     align-items: center;;
+    
 }
 
-#home span {
+#home h1 {
     color : white;
     font-weight: bold;
     align-self: center;
@@ -40,7 +41,8 @@ nav ul{
 
 nav ul li {
     display : inline;
-    margin-right: 10px;
+    margin-right: 30px;
+    font-size: 20px;
 }
 
 nav a {
@@ -51,15 +53,6 @@ nav a {
 
 
 
-button {    
-    background-color: #064b48;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-  
-}
 
 .search-container {
     display: flex;
@@ -70,16 +63,120 @@ button {
     padding: 0px 10px;
     width: auto;
     justify-content: space-evenly;
+}
 
+.search-container input{
+    border: none;
+    
 }
 
 
 .clear-button,
  .search-button{
+
+    background-color: #064b48;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+
     width: auto;
     height: auto;
+    padding: 5px;
+    margin: 2px;
     font-size: 10px;
     border-radius: 10px;
+}
+#searchQuery {
+    flex-direction: row;
+    color: rgb(7, 95, 83);
+    padding: 10px;
+    display:flex;
+    justify-content: flex-end;
+    margin-right : 20px;
+}
+
+
+
+
+#vertical-line {
+    padding-top: 20px;
+    border-left: 3px solid white;
+    height: 250px;
+    display: inline-block  ;
+    margin-left: 40px;
+}
+
+#contact-logo{
+    display: grid;
+    align-items: center;
+    gap : 10px;
+    grid-auto-flow: row;
+    
+}
+
+#contact-logo img {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+
+
+
+#container-box{
+    display: flex;
+    flex-direction: row;
+}
+
+#explore-box {
+  
+   
+    font-size: 50px;
+    margin-left: 50px;
+    color:white;
+    display: inline-block;
+    padding-left : 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+}
+
+
+#details-box{
+  
+    color: white; 
+    font-size: 15px;
+    
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left:  50px;
+}
+
+#little-box{
+    display: flex;
+    flex-direction: column;
+}
+
+#book-btn{
+    margin-left : 100px;
+    margin-top:  60px;
+   
+}
+
+#book-btn button{
+    color:white;
+    font-weight: 600;
+    background-color: #033936;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#book-btn button:hover{
+    background-color: #558700;
 }
 
 

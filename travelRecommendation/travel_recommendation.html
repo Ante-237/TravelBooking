@@ -7,33 +7,31 @@
 
     <body>
 
-        <nav>
+        <nav id="home-nav">
                     <span id="home">
                            <span> <a href="#" >   <img src="./Images/booklogo.png" alt="logo" width="100" height="50"></a> </span>
                           <h1>TravelBook</h1>
                     </span>
 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+            <ul id="home-nav" >
+                <li><a href="travel_recommendation.html">Home</a></li>
+                <li><a href="travel_aboutus.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
 
 
            
-                <span class="search-container">
-                    <input type="text" placeholder="Enter Destination ...">
+                <span class="search-container"> 
+                    <input type="text" id="Input" placeholder="Enter Destination ...">
                     <img src="./Images/searchbar.png" class="searchImage" alt="search" width="30" height="30">
-                    <button class="search-button">Search</button>
-                    <button class="clear-button">Clear</button>
+                    <button class="search-button" id="search-id">Search</button>
+                    <button class="clear-button" id="clear-id">Clear</button>
                 </span>
             
         </nav> 
         
         
-        <div id="searchQuery">
-            <span>Please enter a valid search query</span>
-        </div>
+   
 
 
 
@@ -68,12 +66,22 @@
 
             </div>
 
+            <div id="search-results">
+                <div>
+                    <h4>Please enter a valid search query</h4>
+                </div>
+
+                <div id ="empty-box">
+
+                </div>
+
+            </div>
+
           
 
         </div>
 
-
-
+        <script src="travel_recommendation.js"></script>
     </body>
 </html>
 
